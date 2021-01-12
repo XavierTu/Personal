@@ -3674,3 +3674,13 @@ video {
   object-position: center;
   object-fit: cover;
 }
+
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+    body {
+        background: url('poster.jpg');
+        background-size: cover;
+    }
+}
